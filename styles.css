@@ -1,0 +1,82 @@
+:root {
+    --color-1: #EA8C55;
+    --color-2: #C75146;
+    --color-3: #AD2E24;
+    --color-4: #81171B;
+    --color-5: #540804;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: var(--color-1);
+}
+a:link {
+    color: var(--color-1)
+}
+a:hover {
+    background-color: var(--color-5);
+}
+
+body {
+    background-color: var(--color-1);
+}
+
+nav {
+    text-align: center;
+    background-color: var(--color-3);
+    border: 2px var(--color-4) double;
+}
+
+.header_bar {
+    background-color: var(--color-3);
+    border: 2px var(--color-4) double;
+    text-align: center;
+}
+
+.image_center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.image_collection {
+    display: flex
+}
+
+.form {
+    background-color: var(--color-3);
+    color: var(--color-1);
+    border: 2px var(--color-4) double;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.container {
+    background-color: var(--color-3);
+    color: var(--color-1);
+    border: 2px var(--color-4) double;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+table, th, td{
+    border: 2px black solid;
+}
+table {
+    margin: 100px 0px 0px 200px;
+    width: 80%
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+th {
+    background-color: var(--color-3);
+}
+tr:nth-child(even) {
+    background-color: var(--color-1);
+}
+tr:nth-child(odd) {
+    background-color: var(--color-2);
+}

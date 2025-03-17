@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a> | <a href="classes.html">View our classes</a> | <a href="info.html">Sign Up
+                Now</a>
+        </nav>
+    </header>
+
+    <section class="form">
+        <form action="thankyou.html" method="get">
+            <div>
+                <label for="fName">First Name:</label>
+                <input type="text" name="fName" id="fName" placeholder="First Name" required>
+            </div>
+            <div>
+                <label for="lName">Last Name:</label>
+                <input type="text" name="lName" id="lName" placeholder="Last Name" required>
+            </div>
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" placeholder="Email Address">
+            </div>
+            <div>
+                <label for="phoneNum">Phone Number:</label>
+                <input type="text" name="phoneNum" id="phoneNum" placeholder="Phone Number">
+            </div>
+            <div>
+                <label for="wayToReach">Best Way to Reach You:</label>
+                <select id="wayToReach" name="wayToReach">
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                    <option value="pigeon">Pigeon</option>
+                    <option value="divineMessage">Divine Message</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" id="class1" name="class1" value="crossTraining">
+                <label for="class1">Cross Training</label><br>
+                <input type="checkbox" id="class2" name="class2" value="Sprint">
+                <label for="class2">Sprint</label><br>
+                <input type="checkbox" id="class3" name="class3" value="Spin">
+                <label for="class3">Spin</label><br>
+                <input type="checkbox" id="class4" name="class4" value="bodyPump">
+                <label for="class4">Body Pump</label><br>
+                <input type="checkbox" id="class5" name="class5" value="bodyCombat">
+                <label for="class5">Body Combat</label><br>
+                <input type="checkbox" id="class6" name="class6" value="stepInterval">
+                <label for="class6">Step Interval</label><br>
+                <input type="checkbox" id="class7" name="class7" value="advancedCrossTraining">
+                <label for="class7">Advanced Cross Training</label><br>
+                <input type="checkbox" id="class8" name="class8" value="mixxedFIT">
+                <label for="class8">Mixxed FIT</label><br>
+                <input type="checkbox" id="class9" name="class9" value="Zumba">
+                <label for="class9">Zumba</label><br>
+            </div>
+            <div>
+                <input type="radio" id="am" name="time" value="AM">
+                <label for="am">AM</label><br>
+                <input type="radio" id="pn" name="time" value="PM">
+                <label for="pm">PM</label>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>
